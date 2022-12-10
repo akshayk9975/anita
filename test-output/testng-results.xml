@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-16T12:27:04 IST" name="Default suite" finished-at="2022-11-16T12:27:18 IST" duration-ms="13539">
+    <groups>
+    </groups>
+    <test started-at="2022-11-16T12:27:04 IST" name="Default test" finished-at="2022-11-16T12:27:18 IST" duration-ms="13539">
+      <class name="TestCases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginPageTest@12468a38]" started-at="2022-11-16T12:27:05 IST" name="setup" finished-at="2022-11-16T12:27:09 IST" duration-ms="4153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyurlTest()[pri:0, instance:TestCases.LoginPageTest@12468a38]" started-at="2022-11-16T12:27:09 IST" name="verifyurlTest" finished-at="2022-11-16T12:27:10 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyurlTest -->
+        <test-method is-config="true" signature="closeBroser(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@12468a38]" started-at="2022-11-16T12:27:10 IST" name="closeBroser" finished-at="2022-11-16T12:27:10 IST" duration-ms="607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyurlTest status=SUCCESS method=LoginPageTest.verifyurlTest()[pri:0, instance:TestCases.LoginPageTest@12468a38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginPageTest@12468a38]" started-at="2022-11-16T12:27:10 IST" name="setup" finished-at="2022-11-16T12:27:12 IST" duration-ms="1976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybotLogoTest()[pri:1, instance:TestCases.LoginPageTest@12468a38]" started-at="2022-11-16T12:27:12 IST" name="verifybotLogoTest" finished-at="2022-11-16T12:27:12 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybotLogoTest -->
+        <test-method is-config="true" signature="closeBroser(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@12468a38]" started-at="2022-11-16T12:27:12 IST" name="closeBroser" finished-at="2022-11-16T12:27:13 IST" duration-ms="517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybotLogoTest status=SUCCESS method=LoginPageTest.verifybotLogoTest()[pri:1, instance:TestCases.LoginPageTest@12468a38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginPageTest@12468a38]" started-at="2022-11-16T12:27:13 IST" name="setup" finished-at="2022-11-16T12:27:15 IST" duration-ms="2060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleTest()[pri:2, instance:TestCases.LoginPageTest@12468a38]" started-at="2022-11-16T12:27:15 IST" name="verifyTitleTest" finished-at="2022-11-16T12:27:15 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="closeBroser(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@12468a38]" started-at="2022-11-16T12:27:15 IST" name="closeBroser" finished-at="2022-11-16T12:27:15 IST" duration-ms="533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitleTest status=SUCCESS method=LoginPageTest.verifyTitleTest()[pri:2, instance:TestCases.LoginPageTest@12468a38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginPageTest@12468a38]" started-at="2022-11-16T12:27:15 IST" name="setup" finished-at="2022-11-16T12:27:17 IST" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyloginLogoTest()[pri:2, instance:TestCases.LoginPageTest@12468a38]" started-at="2022-11-16T12:27:17 IST" name="verifyloginLogoTest" finished-at="2022-11-16T12:27:18 IST" depends-on-methods="TestCases.LoginPageTest.verifyTitleTest" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginLogoTest -->
+        <test-method is-config="true" signature="closeBroser(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@12468a38]" started-at="2022-11-16T12:27:18 IST" name="closeBroser" finished-at="2022-11-16T12:27:18 IST" duration-ms="478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginLogoTest status=SUCCESS method=LoginPageTest.verifyloginLogoTest()[pri:2, instance:TestCases.LoginPageTest@12468a38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroser -->
+      </class> <!-- TestCases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
