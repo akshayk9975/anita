@@ -32,3 +32,4 @@ public class TastBase {
 		driver.get(ReadData.readPropertyFile("url"));
 	}
 }
+ //i push the code on git hub everone can acces
